@@ -14,11 +14,12 @@ Usage:
 How to implement a parser for, say, .ssproj:
 * Define your data structs (ASTs) which define an output of a parser (see project/project.h)
 * Inherit your parser class from base::Parser (see project/project_parser.h)
-* Implement your parser, using base::Parser helper methods.
+* Implement your parser, using base::Parser helper methods (project/project_parser.cpp)
 
-Same for the other two parsers: See
+Same for the other two parsers. See:
 * project/project_metadata_parser.h
 * project/project_data_parser.h
+... and their implementations.
 
 example/example.cpp demonstrates, how two use all three parsers together.
 
