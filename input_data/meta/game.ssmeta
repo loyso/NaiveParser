@@ -1,0 +1,13 @@
+
+view SpeedPanel {
+  float speed="speedometer.speed"
+  float fuel="fuel.text"
+  float gear="gear.text"
+}
+
+struct CarPanel {
+  view=SpeedPanel
+
+  instance panel1="data/panel1"
+  instance panel2="data/panel2"
+}

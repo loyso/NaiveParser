@@ -1,0 +1,17 @@
+
+object panel1 {
+  data {
+	digitalSpeedometer speedometer {
+	  speed=0.1
+	  color=255
+	  fontSize=14
+	}
+	staticText fuel {
+	  text=1
+	}
+	staticText gear {
+	  text=9
+	}
+  }
+}
+

@@ -1,0 +1,12 @@
+
+view DigitalSpeedometer {
+  float speed
+  int color
+  int fontSize
+}
+
+view AnalogSpeedometer {
+  float speed
+  int backgroundTexture
+  int arrowTexture
+}

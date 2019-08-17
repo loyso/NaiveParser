@@ -1,0 +1,24 @@
+
+object digitalSpeedometer {
+  view=DigitalSpeedometer
+  data {
+	float speed=0
+	int color=255
+	int fontSize=14
+  }
+}
+
+object analogSpeedometer {
+  view=AnalogSpeedometer
+  data {
+	float speed=0
+    int backgroundTexture=1
+	int arrowTexture=2
+  }
+}
+
+object staticText {
+  data {
+	int text=49
+  }
+}

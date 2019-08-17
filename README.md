@@ -1,2 +1,3 @@
 # NaiveParser
- Simple recursive parser class.
+
+Simple recursive parser class.

@@ -1,0 +1,17 @@
+
+object panel2 {
+  data {
+	analogSpeedometer speedometer {
+	  speed=0.2
+      backgroundTexture=1
+	  arrowTexture=2
+	}
+	staticText fuel {
+	  text=2
+	}
+	staticText gear {
+	  text=8
+	}
+  }
+}
+

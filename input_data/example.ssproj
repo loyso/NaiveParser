@@ -1,0 +1,13 @@
+name="The SS: An Example Visual Studio-like Project"
+
+meta {
+	file="meta/game.ssmeta"
+	file="meta/ui.ssmeta"
+}
+
+data {
+	file="data/controls.ssdata"
+	file="data/panel1.ssdata"
+	file="data/panel2.ssdata"
+}
+
